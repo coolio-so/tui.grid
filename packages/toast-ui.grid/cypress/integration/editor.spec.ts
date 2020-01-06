@@ -262,7 +262,7 @@ describe('editable, disable, hidden', () => {
   });
 });
 
-it('should do syncronous renering of the editing cell', () => {
+it('should do synchronous rendering of the editing cell', () => {
   const stub = cy.stub();
   createGridWithEditingFinishEvent(stub);
 
